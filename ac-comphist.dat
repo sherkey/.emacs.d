@@ -1,0 +1,16 @@
+((("global-linum-mode" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("show-paren-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("line-number-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("column-number-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("inhibit-startup-message" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [1 0 0 0])
+  ("data2" .
+   [0 0 1 0 0])
+  ("hello" .
+   [1 0 0 0 0])))

@@ -1,0 +1,50 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("e:/" . "code/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "e:/code/temp/"
+ "e:/code/"
+ "c:/Users/Administrator/AppData/Roaming/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Todo.org"
+ "hello.py"
+ "gogo.py"
+ "init.el"
+ "天津电子信息职业技术学院公开招聘人员报名表.zip"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (21953 51139 0 0) "plugin/" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("e:/code/" (21953 51128 0 0) "天津电子信息职业技术学院公开招聘人员报名表.zip" "temp/" "Jpush/" "installer_r24.3.3-windows.exe" "hello.py~" "hello.py" "gogo.py" "get-pip.py" "fiddler4_V4.5.1.2_setup.1435307371.exe" "android-studio-bundle-141.1980579-windows.exe" "ADT-23.0.6.zip" "ADT-23.0.6(2).zip" "ADT-23.0.6(1).zip" "1/" ".idea/" "#hello.py#" "#gogo.py#" "../" "./")
+
+ ("e:/code/temp/" (21953 51127 0 0) "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/" (21953 32350 0 0) "Xunlei/" "Tencent/" "TaobaoProtect/" "Scooter Software/" "Quest Software/" "ppstream/" "PPLive/" "Nutstore/" "Mozilla/" "MiguMusicMDA/" "Microsoft/" "Macromedia/" "Kingsoft/" "JetBrains/" "InstallShield/" "Identities/" "HaoZip/" "Google/" "gnupg/" "Foxmail7/" "Foxit Software/" "FetionV5/" "Everything/" "dg/" "BaiduYunKernel/" "BaiduYunGuanjia/" "baidu/" "ATI/" "Application Data/" "Adobe/" "360SuperKiller/" "360Quarant/" "360Login/" "360Desktop/" "2345Pic/" ".smex-items" ".emacs.d/" ".backups/" "#message-20150805-110827#" "../" "./")
+
+ ("e:/code/1/.idea/" (21894 26723 0 0) "workspace.xml" "vcs.xml" "modules.xml" "misc.xml" "1.iml" ".name" "../" "./")
+
+ ("e:/code/1/" (21935 13266 0 0) "test.py" "learn2.py" ".idea/" "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/plugin/" (21952 27021 0 0) "color-theme-6.6.0/" "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/plugin/color-theme-6.6.0/" (17529 43612 0 0) "themes/" "README" "Makefile.defs" "Makefile" "HACKING" "COPYING" "configure-stamp" "color-theme.el" "color-theme-autoloads.in" "color-theme-autoloads.elc" "color-theme-autoloads.el" "ChangeLog" "build-stamp" "BUGS" "AUTHORS" "../" "./")
+
+ ("e:/Program Files/" (21946 54360 0 0) "爱奇艺PPS影音3.6.5.1102 Black Hawk去广告绿色版/" "sogoupinyin/" "emacs/" "China Mobile/" "Adobe/" "../" "./")
+
+ ("e:/Program Files/emacs/" (21946 54394 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("e:/Program Files/emacs/bin/" (21947 18433 0 0) "runemacs.exe" "help~" "help" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "#sldkfj#" "#help#" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
