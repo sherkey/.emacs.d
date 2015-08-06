@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/Administrator/AppData/Roaming/" . ".emacs.d/")
  ("e:/" . "code/")
 )
 
@@ -14,20 +15,27 @@
 
 ;; ----- ido-work-file-list -----
 (
- "Todo.org"
- "hello.py"
+ "1.py"
  "gogo.py"
  "init.el"
+ "Todo.org"
+ "hello.py"
  "天津电子信息职业技术学院公开招聘人员报名表.zip"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (21953 51139 0 0) "plugin/" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" "../" "./")
+ ("e:/code/temp/" (21955 10558 0 0) "Todo.org~" "Todo.org" "1.py" "../" "./")
 
- ("e:/code/" (21953 51128 0 0) "天津电子信息职业技术学院公开招聘人员报名表.zip" "temp/" "Jpush/" "installer_r24.3.3-windows.exe" "hello.py~" "hello.py" "gogo.py" "get-pip.py" "fiddler4_V4.5.1.2_setup.1435307371.exe" "android-studio-bundle-141.1980579-windows.exe" "ADT-23.0.6.zip" "ADT-23.0.6(2).zip" "ADT-23.0.6(1).zip" "1/" ".idea/" "#hello.py#" "#gogo.py#" "../" "./")
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (21955 10195 0 0) "plugin/" "org/" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "ac-comphist.dat" ".git/" "../" "./")
 
- ("e:/code/temp/" (21953 51127 0 0) "../" "./")
+ ("e:/code/" (21955 10195 0 0) "天津电子信息职业技术学院公开招聘人员报名表.zip" "temp/" "Jpush/" "installer_r24.3.3-windows.exe" "hello.py~" "hello.py" "gogo.py~" "gogo.py" "get-pip.py" "fiddler4_V4.5.1.2_setup.1435307371.exe" "android-studio-bundle-141.1980579-windows.exe" "ADT-23.0.6.zip" "ADT-23.0.6(2).zip" "ADT-23.0.6(1).zip" "1/" ".idea/" "#hello.py#" "../" "./")
+
+ ("c:/Users/" (21887 57834 0 0) "Public/" "Gary Cheung/" "desktop.ini" "Default User/" "Default/" "All Users/" "Administrator/" "../" "./")
+
+ ("c:/Users/Administrator/" (21954 52637 0 0) "「开始」菜单/" "~/" "_viminfo" "Videos/" "Templates/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.ini" "NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".ssh/" ".PyCharm40/" ".gitconfig" ".eclipse/" ".codeintel/" ".bash_history" ".android/" "../" "./")
+
+ ("c:/Users/Administrator/AppData/" (19688 13854 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
 
  ("c:/Users/Administrator/AppData/Roaming/" (21953 32350 0 0) "Xunlei/" "Tencent/" "TaobaoProtect/" "Scooter Software/" "Quest Software/" "ppstream/" "PPLive/" "Nutstore/" "Mozilla/" "MiguMusicMDA/" "Microsoft/" "Macromedia/" "Kingsoft/" "JetBrains/" "InstallShield/" "Identities/" "HaoZip/" "Google/" "gnupg/" "Foxmail7/" "Foxit Software/" "FetionV5/" "Everything/" "dg/" "BaiduYunKernel/" "BaiduYunGuanjia/" "baidu/" "ATI/" "Application Data/" "Adobe/" "360SuperKiller/" "360Quarant/" "360Login/" "360Desktop/" "2345Pic/" ".smex-items" ".emacs.d/" ".backups/" "#message-20150805-110827#" "../" "./")
 
