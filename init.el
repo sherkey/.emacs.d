@@ -17,9 +17,9 @@
 (setq org-log-done t)
 (setq org-agenda-files (list "~/.emacs.d/org/work.org"))
 
-;;ido mode
-(require 'ido)
-(ido-mode t)
+;; ;;ido mode
+;; (require 'ido)
+;; (ido-mode t)
 
 ;;color theme
 (add-to-list 'load-path "~/.emacs.d/plugin/color-theme-6.6.0")
@@ -27,11 +27,11 @@
 (color-theme-initialize)
 (color-theme-dark-blue2)
 
-;;auto-complete
-(add-to-list 'load-path "~/.emacs.d/elpa/auto-complete")   
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete/dict")
-(ac-config-default)
+;; ;;auto-complete
+;; (add-to-list 'load-path "~/.emacs.d/elpa/auto-complete")   
+;; (require 'auto-complete-config)
+;; (add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete/dict")
+;; (ac-config-default)
 
 ;; 显示时间，格式如下
 (display-time-mode 1)
@@ -44,7 +44,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(org-agenda-files nil))
+ '(display-time-mode t)
+ '(org-agenda-files nil)
+ '(show-paren-mode t)
+ '(transient-mark-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -65,10 +68,9 @@
  global-fci-mode fci-mode (lambda () (fci-mode 1)))
 (global-fci-mode t)
 
-; python-mode
-(setq py-install-directory "~/.emacs.d/plugin/python-mode/")
-(add-to-list 'load-path py-install-directory)
-(require 'python-mode)
+
+;;python
+(load-file "~/.emacs.d/plugin/emacs-for-python/epy-init.el")
 
 ; use IPython
 (setq-default py-shell-name "ipython")
@@ -85,4 +87,3 @@
 (setq py-split-windows-on-execute-p nil)
 ; try to automagically figure out indentation
 (setq py-smart-indentation t)
-
