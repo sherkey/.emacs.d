@@ -1,5 +1,7 @@
 ;;默认打开目录
 (setq default-directory "e:/code/temp")
+(add-to-list 'load-path "~/.emacs.d/plugin/")
+
 ;;pachage control
 (require 'package)
 (add-to-list 'package-archives'
@@ -12,10 +14,17 @@
 
 ;;org-mode
 (require 'org)
+(setq org-agenda-files (list "~/.emacs.d/org/work.org"))
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
-(setq org-agenda-files (list "~/.emacs.d/org/work.org"))
+;;;org-mode 自动换行
+(add-hook 'org-mode-hook
+          (lambda ()
+            (setq truncate-lines nil)))
+
+;;org-mode 显示图片 iimage.el
+
 
 ;; ;;ido mode
 ;; (require 'ido)
@@ -39,21 +48,14 @@
 (setq display-time-day-and-date t)
 
 ;;默认字体
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(display-time-mode t)
- '(org-agenda-files nil)
- '(show-paren-mode t)
- '(transient-mark-mode nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:family "Courier New" :foundry "outline" :slant normal :weight normal :height 113 :width normal)))))
+;; Setting English Font
+(set-face-attribute
+'default nil :font "Consolas 11")
+;; Chinese Font
+(dolist (charset '(kana han symbol cjk-misc bopomofo))
+(set-fontset-font (frame-parameter nil 'font)
+charset
+(font-spec :family "Microsoft Yahei" :size 16)))
 
 ;;去掉欢迎信息
 (setq inhibit-startup-message t)
@@ -62,12 +64,13 @@
 ;;开启括号匹配
 (show-paren-mode t)
 ;;加一道竖线
-(add-to-list 'load-path "~/.emacs.d/plugin/")
-(require 'fill-column-indicator)
-(define-globalized-minor-mode
- global-fci-mode fci-mode (lambda () (fci-mode 1)))
-(global-fci-mode t)
-
+;; (require 'fill-column-indicator)
+;; (define-globalized-minor-mode
+;;  global-fci-mode fci-mode (lambda () (fci-mode 1)))
+;; (global-fci-mode t)
+;; ;;key-binding
+;; (global-set-key (kbd "C-K") 'kill-whole-line)
+;; ;;key-binding
 
 ;;python
 (load-file "~/.emacs.d/plugin/emacs-for-python/epy-init.el")
