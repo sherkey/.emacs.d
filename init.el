@@ -1,3 +1,4 @@
+
 ;;默认打开目录
 (setq default-directory "e:/code/temp")
 (add-to-list 'load-path "~/.emacs.d/plugin/")
@@ -22,13 +23,18 @@
 (add-hook 'org-mode-hook
           (lambda ()
             (setq truncate-lines nil)))
+;;new_buffer
+(require 'new-buffer)
+(global-set-key (kbd "M-n") 'xah-new-empty-buffer)
 
 ;;org-mode 显示图片 iimage.el
-
-
+;;设置标记
+(global-set-key (kbd "C-z") 'set-mark-command)
 ;; ;;ido mode
 ;; (require 'ido)
 ;; (ido-mode t)
+;;使用 y or n 提问
+(fset 'yes-or-no-p 'y-or-n-p)
 
 ;;color theme
 (add-to-list 'load-path "~/.emacs.d/plugin/color-theme-6.6.0")
@@ -36,11 +42,26 @@
 (color-theme-initialize)
 (color-theme-dark-blue2)
 
+
 ;; ;;auto-complete
 ;; (add-to-list 'load-path "~/.emacs.d/elpa/auto-complete")   
 ;; (require 'auto-complete-config)
 ;; (add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete/dict")
 ;; (ac-config-default)
+(require 'auto-complete)
+(require 'auto-complete-config)
+(global-auto-complete-mode t)
+(setq-default ac-sources '(ac-source-words-in-same-mode-buffers))
+(add-hook 'emacs-lisp-mode-hook (lambda () (add-to-list 'ac-sources 'ac-source-symbols)))
+(add-hook 'auto-complete-mode-hook (lambda () (add-to-list 'ac-sources 'ac-source-filename)))
+(set-face-background 'ac-candidate-face "lightgray")
+(set-face-underline 'ac-candidate-face "darkgray")
+(set-face-background 'ac-selection-face "steelblue") ;;; 设置比上面截图中更好看的背景颜色
+(define-key ac-completing-map "\M-n" 'ac-next)  ;;; 列表中通过按M-n来向下移动
+(define-key ac-completing-map "\M-p" 'ac-previous)
+(setq ac-auto-start 2)
+(setq ac-dwim t)
+(define-key ac-mode-map (kbd "M-/") 'auto-complete)
 
 ;; 显示时间，格式如下
 (display-time-mode 1)
@@ -83,10 +104,18 @@ charset
   '("--gui=wx" "--pylab=wx" "-colors" "Linux"))
 (setq py-force-py-shell-name-p t)
 
-; switch to the interpreter after executing code
-(setq py-shell-switch-buffers-on-execute-p t)
-(setq py-switch-buffers-on-execute-p t)
-; don't split windows
-(setq py-split-windows-on-execute-p nil)
-; try to automagically figure out indentation
-(setq py-smart-indentation t)
+;;yasnippet
+(add-to-list 'load-path "~/.emacs.d/plugin/yasnippet-master")
+(require 'yasnippet)
+(yas/initialize)
+(yas/load-directory "~/.emacs.d/plugin/yasnippet-master/snippets")
+
+;;ibuffer
+(defalias 'list-buffers 'ibuffer) ; make ibuffer default
+;;<F5> compile
+(defun my-compile ()
+  "Use compile to run python programs"
+  (interactive)
+  (compile (concat "python " (buffer-name))))
+(setq compilation-scroll-output t)
+(global-set-key (kbd "<f6>") 'my-compile)
