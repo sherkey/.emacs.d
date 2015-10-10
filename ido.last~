@@ -11,32 +11,41 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/Administrator/AppData/Roaming/.emacs.d/"
+ "c:/Users/Administrator/AppData/Roaming/"
  "c:/Users/Administrator/AppData/Roaming/.emacs.d/org/"
  "e:/code/temp/"
- "c:/Users/Administrator/AppData/Roaming/.emacs.d/"
  "c:/Users/Administrator/AppData/Roaming/.emacs.d/plugin/emacs-for-python/"
  "e:/code/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
+ ".smex-items"
  "work.org"
  "1.py"
- "init.el"
  "note.org"
  "hello.txt"
  "README.org"
  "gogo.py"
  "Todo.org"
  "hello.py"
- "天津电子信息职业技术学院公开招聘人员报名表.zip"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (22025 1122 0 0) "plugin/" "org/" "init.el~" "init.el" "ido.last~" "ido.last" "eproject.lst" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" ".git/" "../" "./")
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (22040 38136 0 0) "plugin/" "org/" "init.el~" "init.el" "ido.last~" "ido.last" "eproject.lst" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" ".git/" "../" "./")
 
- ("e:/code/temp/" (22024 61895 0 0) "Todo.org~" "Todo.org" "1.py~" "1.py" "#hello.txt#" "../" "./")
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/elpa/" (21953 34693 0 0) "popup-20150626.711/" "gnupg/" "auto-complete/" "archives/" "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/elpa/auto-complete/" (21953 34520 0 0) "dict/" "auto-complete.elc" "auto-complete.el" "auto-complete-pkg.el" "auto-complete-config.elc" "auto-complete-config.el" "auto-complete-autoloads.el~" "auto-complete-autoloads.el" "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/elpa/auto-complete/dict/" (21953 34519 0 0) "verilog-mode" "tuareg-mode" "ts-mode" "tcl-mode" "sh-mode" "sclang-mode" "scheme-mode" "scala-mode" "ruby-mode" "qml-mode" "python-mode" "php-mode" "octave-mode" "lua-mode" "js-mode" "java-mode" "haskell-mode" "go-mode" "erlang-mode" "css-mode" "coq-mode" "clojurescript-mode" "clojure-mode" "caml-mode" "c-mode" "c++-mode" "ada-mode" "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/org/" (22040 34692 0 0) "work.org" ".#work.org" "#work.org#" "../" "./")
+
+ ("e:/code/temp/" (22027 21838 0 0) "Todo.org~" "Todo.org" "1.py~" "1.py" "#hello.txt#" "../" "./")
 
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/plugin/emacs-for-python/extensions/eproject/" (22024 61800 0 0) "eproject.txt" "eproject.el" "eproject.cfg" "eproject-config.el" "../" "./")
 
@@ -45,8 +54,6 @@
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/plugin/emacs-for-python/extensions/" (21672 38503 0 0) "yasnippet/" "virtualenv.el" "snippet-helpers.el" "smart-operator.el" "python.el" "pymacs.el" "open-next-line.el" "nose.el" "highlight-indentation.el" "flymake-patch.el" "flymake-cursor.el" "epy-project.el" "eproject/" "cython-mode.el" "autopair.el" "auto-complete/" "../" "./")
 
  ("e:/同步工作/org/" (22007 32731 0 0) "worg-classic.css" "note.org~" "note.org" "note.html~" "note.html" "note.docx" "img/" "css/" "1.png" "../" "./")
-
- ("c:/Users/Administrator/AppData/Roaming/.emacs.d/org/" (22024 44854 0 0) "work.org" "../" "./")
 
  ("c:/Users/Administrator/AppData/Roaming/" (22019 40785 0 0) "Xunlei/" "wangame/" "Tencent/" "TaobaoProtect/" "Sun/" "Scooter Software/" "Raptr/" "Quest Software/" "PPLive/" "Nutstore/" "News/" "Mozilla/" "MiguMusicMDA/" "Microsoft/" "Macromedia/" "library_dir/" "Kingsoft/" "JetBrains/" "InstallShield/" "Identities/" "HaoZip/" "Google/" "gnupg/" "Foxmail7/" "Foxit Software/" "FetionV5/" "Everything/" "Bao_Nguyen/" "baidu/" "ATI/" "Application Data/" "app.ini" "Adobe/" "360SuperKiller/" "360se6/" "360Safe/" "360Quarant/" "360Login/" "360Desktop/" "2345Pic/" ".smex-items" ".newsrc-dribble" ".ipython/" ".ido.last" ".emacs.d/" ".backups/" "#message-20150805-110827#" "../" "./")
 

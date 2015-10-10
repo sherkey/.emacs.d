@@ -1,4 +1,3 @@
-
 ;;默认打开目录
 (setq default-directory "e:/code/temp")
 (add-to-list 'load-path "~/.emacs.d/plugin/")
@@ -12,6 +11,8 @@
 (add-to-list 'package-archives'
   ("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
+;;enable cua mode 列编辑
+(cua-mode t)
 
 ;;org-mode
 (require 'org)
@@ -48,9 +49,11 @@
 ;; (require 'auto-complete-config)
 ;; (add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete/dict")
 ;; (ac-config-default)
+
 (require 'auto-complete)
 (require 'auto-complete-config)
 (global-auto-complete-mode t)
+(add-to-list 'ac-modes 'sql-mode)
 (setq-default ac-sources '(ac-source-words-in-same-mode-buffers))
 (add-hook 'emacs-lisp-mode-hook (lambda () (add-to-list 'ac-sources 'ac-source-symbols)))
 (add-hook 'auto-complete-mode-hook (lambda () (add-to-list 'ac-sources 'ac-source-filename)))
@@ -61,7 +64,7 @@
 (define-key ac-completing-map "\M-p" 'ac-previous)
 (setq ac-auto-start 2)
 (setq ac-dwim t)
-(define-key ac-mode-map (kbd "M-/") 'auto-complete)
+(global-set-key (kbd "M-.") 'auto-complete)
 
 ;; 显示时间，格式如下
 (display-time-mode 1)
@@ -119,3 +122,9 @@ charset
   (compile (concat "python " (buffer-name))))
 (setq compilation-scroll-output t)
 (global-set-key (kbd "<f6>") 'my-compile)
+;;<F3> highlight-symbol
+(require 'highlight-symbol)
+(global-set-key [(control f3)] 'highlight-symbol)
+(global-set-key [f3] 'highlight-symbol-next)
+(global-set-key [(shift f3)] 'highlight-symbol-prev)
+(global-set-key [(meta f3)] 'highlight-symbol-query-replace)
