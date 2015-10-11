@@ -4,12 +4,8 @@
 
 ;;pachage control
 (require 'package)
-(add-to-list 'package-archives'
-  ("elpa" . "http://tromey.com/elpa/") t)
-(add-to-list 'package-archives' 
-  ("marmalade" . "http://marmalade-repo.org/packages/") t)
-(add-to-list 'package-archives'
-  ("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 ;;enable cua mode 列编辑
 (cua-mode t)
@@ -108,10 +104,10 @@ charset
 (setq py-force-py-shell-name-p t)
 
 ;;yasnippet
-(add-to-list 'load-path "~/.emacs.d/plugin/yasnippet-master")
+(add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-0.8.0")
 (require 'yasnippet)
-(yas/initialize)
-(yas/load-directory "~/.emacs.d/plugin/yasnippet-master/snippets")
+;;(yas/load-directory "~/.emacs.d/elpa/yasnippet-0.8.0/snippets")
+(yas-global-mode 1)
 
 ;;ibuffer
 (defalias 'list-buffers 'ibuffer) ; make ibuffer default

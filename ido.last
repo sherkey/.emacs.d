@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/Administrator.USER-20150224BH/AppData/Roaming/" . ".emacs.d/")
  ("e:/code/" . "temp/")
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/plugin/" . "emacs-for-python/")
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" . "org/")
@@ -11,6 +12,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/Administrator.USER-20150224BH/AppData/Roaming/.emacs.d/"
  "c:/Users/Administrator/AppData/Roaming/.emacs.d/"
  "c:/Users/Administrator/AppData/Roaming/"
  "c:/Users/Administrator/AppData/Roaming/.emacs.d/org/"
@@ -35,6 +37,18 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/Administrator.USER-20150224BH/AppData/Roaming/.emacs.d/" (22042 5666 0 0) "plugin/" "org/" "init.el~" "init.el" "ido.last~" "ido.last" "eproject.lst" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" ".git/" "../" "./")
+
+ ("c:/Users/Administrator.USER-20150224BH/AppData/Roaming/.emacs.d/elpa/" (22042 5330 0 0) "yasnippet-readme.txt" "yasnippet-0.8.0/" "popup-20150626.711/" "gnupg/" "auto-complete/" "archives/" "../" "./")
+
+ ("c:/Users/Administrator.USER-20150224BH/AppData/Roaming/.emacs.d/elpa/yasnippet-0.8.0/" (22042 5329 0 0) "yasnippet.elc" "yasnippet.el" "yasnippet-pkg.elc" "yasnippet-pkg.el" "yasnippet-autoloads.el~" "yasnippet-autoloads.el" "snippets/" "README" "dropdown-list.elc" "dropdown-list.el" "ChangeLog" "../" "./")
+
+ ("c:/Users/Administrator.USER-20150224BH/AppData/Roaming/" (22038 29485 0 0) "迅雷游戏/" "游戏/" "xy/" "Xunlei/" "xmllite.dll" "WinRAR/" "Win10TipsCfg.dll" "WIN10CHECK0825.EXE" "wimgapi.dll" "VitySoft/" "Vidown/" "TXINSTAUX.DLL" "Tencent/" "TempAppz/" "Temp/" "TaobaoProtect/" "Syntrillium/" "Sublime Text 3/" "Shuame/" "Scooter Software/" "Richinfo/" "resources/" "QMNetWorkMgr.dll" "pyinstaller/" "ppstream/" "PPLive/" "Photo! 3D Album/" "philip/" "NVIDIA/" "Nutstore/" "MPIBrowser/" "Mozilla/" "Mipony/" "Microsoft/" "mgyun/" "MeiMoTuan/" "Macromedia/" "LolClient/" "Log/" "Local/" "LibreOffice/" "JJVOD/" "JetBrains/" "iDown/" "Identities/" "HZDP/" "HaoZhuoMobileMgrP/" "Google/" "GetCurrentDeploy.dll" "Foxmail7/" "Foxit Software/" "FlashGetBHO/" "FlashGet/" "Feige/" "Everything/" "dts/" "DriveTheLife2013/" "dissect/" "DevSet/" "coreavc.ini" "compatcheck_2015_08_27_08_59_39_235.log" "check.xml" "btSearcher/" "BlockSoftareList.json" "BitSpirit/" "BITS/" "Baidu/" "appraiserxp.dll" "Adobe/" "37游戏/" "360Safe/" "360Quarant/" "11Game/" ".emacs.d/" "../" "./")
+
+ ("e:/code/" (22013 62889 0 0) "temp/" "../" "./")
+
+ ("e:/code/temp/" (22014 1080 0 0) "1.py" "#1.py#" "../" "./")
+
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (22040 43336 0 0) "plugin/" "org/" "init.el~" "init.el" "ido.last~" "ido.last" "eproject.lst" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" ".git/" "../" "./")
 
  ("f:/数据检索单/" (22040 44034 0 0) "谭靓/" "许多/" "褚岩/" "蒋斌/" "聂中超/" "程金凤/" "王占利/" "牟向荣/" "池佃霞/" "李丽/" "常用表.txt" "崔艳君/" "存量学生.txt" "刘波/" "刘婷/" "4G终端.txt" "4G换卡.txt" "4G客户.txt" "4G套餐.txt" "20150609/" "20150608/" "20150528/" "20150527/" "20150526/" "201503/" "04_常用语句汇总.txt" "02_本地拍照数据汇总2.xlsx" "01_数据集市常用表汇总2.xlsx" "01_数据集市常用表汇总1.xlsx" "../" "./")
@@ -51,8 +65,6 @@
 
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/elpa/auto-complete/dict/" (21953 34519 0 0) "verilog-mode" "tuareg-mode" "ts-mode" "tcl-mode" "sh-mode" "sclang-mode" "scheme-mode" "scala-mode" "ruby-mode" "qml-mode" "python-mode" "php-mode" "octave-mode" "lua-mode" "js-mode" "java-mode" "haskell-mode" "go-mode" "erlang-mode" "css-mode" "coq-mode" "clojurescript-mode" "clojure-mode" "caml-mode" "c-mode" "c++-mode" "ada-mode" "../" "./")
 
- ("e:/code/temp/" (22027 21838 0 0) "Todo.org~" "Todo.org" "1.py~" "1.py" "#hello.txt#" "../" "./")
-
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/plugin/emacs-for-python/extensions/eproject/" (22024 61800 0 0) "eproject.txt" "eproject.el" "eproject.cfg" "eproject-config.el" "../" "./")
 
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/plugin/" (22019 29242 0 0) "yasnippet-master/" "python-mode/" "new-buffer.el" "fill-column-indicator.el" "emacs-for-python/" "color-theme.el" "color-theme-tomorrow/" "color-theme-6.6.0/" "../" "./")
@@ -64,8 +76,6 @@
  ("c:/Users/Administrator/AppData/Roaming/" (22019 40785 0 0) "Xunlei/" "wangame/" "Tencent/" "TaobaoProtect/" "Sun/" "Scooter Software/" "Raptr/" "Quest Software/" "PPLive/" "Nutstore/" "News/" "Mozilla/" "MiguMusicMDA/" "Microsoft/" "Macromedia/" "library_dir/" "Kingsoft/" "JetBrains/" "InstallShield/" "Identities/" "HaoZip/" "Google/" "gnupg/" "Foxmail7/" "Foxit Software/" "FetionV5/" "Everything/" "Bao_Nguyen/" "baidu/" "ATI/" "Application Data/" "app.ini" "Adobe/" "360SuperKiller/" "360se6/" "360Safe/" "360Quarant/" "360Login/" "360Desktop/" "2345Pic/" ".smex-items" ".newsrc-dribble" ".ipython/" ".ido.last" ".emacs.d/" ".backups/" "#message-20150805-110827#" "../" "./")
 
  ("c:/Users/Administrator/" (22018 30812 0 0) "「开始」菜单/" "~/" "_viminfo" "Videos/" "Templates/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.ini" "NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf" "NTUSER.DAT{6cced2f0-6e01-11de-8bed-001e0bcd1824}.TxR.blf" "NTUSER.DAT{6cced2f0-6e01-11de-8bed-001e0bcd1824}.TxR.2.regtrans-ms" "NTUSER.DAT{6cced2f0-6e01-11de-8bed-001e0bcd1824}.TxR.1.regtrans-ms" "NTUSER.DAT{6cced2f0-6e01-11de-8bed-001e0bcd1824}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".viminfo" ".ssh/" ".pylint.d/" ".PyCharm40/" ".oracle_jre_usage/" ".ipython/" ".idlerc/" ".gitconfig" ".eclipse/" ".codeintel/" ".bash_history" ".android/" "../" "./")
-
- ("e:/code/" (22017 2304 0 0) "天津电子信息职业技术学院公开招聘人员报名表.zip" "temp/" "Jpush/" "installer_r24.3.3-windows.exe" "hello.py~" "hello.py" "gogo.py~" "gogo.py" "get-pip.py" "fiddler4_V4.5.1.2_setup.1435307371.exe" "android-studio-bundle-141.1980579-windows.exe" "ADT-23.0.6.zip" "ADT-23.0.6(2).zip" "ADT-23.0.6(1).zip" "1/" ".idea/" "#hello.py#" "../" "./")
 
  ("e:/同步工作/" (21969 31541 0 0) "附件1：中国移动通信集团河北有限公司新聘劳动合同员工试用期满考核表.xls" "附件1：中国移动通信集团河北有限公司新聘劳动合同员工试用期满考核表-冲突-sherkey.xls" "附件1后台手工造电子券需要地市提供的明细.xlsx" "账户检索.txt" "评分系统/" "网站示例" "网址.txt" "系统故障记录表.xlsx" "秦皇岛移动绩效考评系统需求.docx" "秦皇岛移动绩效考评系统需求-冲突-sherkey.docx" "版本单/" "新建文本文档.txt~" "新建文本文档.txt" "新建文件夹/" "文档/" "数据检索/" "投诉问题.docx" "手机号查宽带号.txt" "工作流程梳理/" "工作总结.docx" "小工具/" "实习工作总结_赫阔.docx" "季度拨测/" "培训/" "县区对应表.txt" "功能模块.vsd" "信用度半年审核/" "信用度半年复核/" "例子/" "优惠.txt" "付费计划优化.txt" "人力密码.txt" "中国移动通信集团河北有限公司秦皇岛分公司人力资源管理系统技术服务需求.docx" "Python 数据分析/" "org/" "OA.txt" "goagent-3.0.zip" "data.xls" "data-冲突-sherkey.xls" "../" "./")
 
