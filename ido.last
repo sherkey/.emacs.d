@@ -37,6 +37,12 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/org/" (22056 22498 0 0) "work.org" ".#work.org" "../" "./")
+
+ ("e:/code/temp/" (22027 21838 0 0) "Todo.org~" "Todo.org" "1.py~" "1.py" "#hello.txt#" "../" "./")
+
+ ("f:/数据检索单/蒋斌/20151012/" (22043 30768 0 0) "语句.txt~" "语句.txt" "手机上网套餐升级活动评估数据检索需求6-8月.xlsx" "~$手机上网套餐升级活动评估数据检索需求6-8月.xlsx" ".#语句.txt" "#语句.txt#" "../" "./")
+
  ("c:/Users/Administrator.USER-20150224BH/AppData/Roaming/.emacs.d/" (22042 5666 0 0) "plugin/" "org/" "init.el~" "init.el" "ido.last~" "ido.last" "eproject.lst" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" ".git/" "../" "./")
 
  ("c:/Users/Administrator.USER-20150224BH/AppData/Roaming/.emacs.d/elpa/" (22042 5330 0 0) "yasnippet-readme.txt" "yasnippet-0.8.0/" "popup-20150626.711/" "gnupg/" "auto-complete/" "archives/" "../" "./")
@@ -47,8 +53,6 @@
 
  ("e:/code/" (22013 62889 0 0) "temp/" "../" "./")
 
- ("e:/code/temp/" (22014 1080 0 0) "1.py" "#1.py#" "../" "./")
-
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (22040 43336 0 0) "plugin/" "org/" "init.el~" "init.el" "ido.last~" "ido.last" "eproject.lst" "elpa/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" ".git/" "../" "./")
 
  ("f:/数据检索单/" (22040 44034 0 0) "谭靓/" "许多/" "褚岩/" "蒋斌/" "聂中超/" "程金凤/" "王占利/" "牟向荣/" "池佃霞/" "李丽/" "常用表.txt" "崔艳君/" "存量学生.txt" "刘波/" "刘婷/" "4G终端.txt" "4G换卡.txt" "4G客户.txt" "4G套餐.txt" "20150609/" "20150608/" "20150528/" "20150527/" "20150526/" "201503/" "04_常用语句汇总.txt" "02_本地拍照数据汇总2.xlsx" "01_数据集市常用表汇总2.xlsx" "01_数据集市常用表汇总1.xlsx" "../" "./")
@@ -56,8 +60,6 @@
  ("f:/数据检索单/蒋斌/" (22040 43547 0 0) "20151010/" "20150915/" "20150720/" "../" "./")
 
  ("f:/数据检索单/蒋斌/20151010/" (22040 52765 0 0) "语句.txt~" "语句.txt" "流量福利季活动评估检索模板.xlsx" "~$流量福利季活动评估检索模板.xlsx" "../" "./")
-
- ("c:/Users/Administrator/AppData/Roaming/.emacs.d/org/" (22040 42342 0 0) "work.org" "#work.org#" "../" "./")
 
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/elpa/" (21953 34693 0 0) "popup-20150626.711/" "gnupg/" "auto-complete/" "archives/" "../" "./")
 
