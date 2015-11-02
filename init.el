@@ -10,6 +10,11 @@
 ;;enable cua mode 列编辑
 (cua-mode t)
 
+;;不产生备份文件
+(setq make-backup-files nil)
+;;光标
+(setq-default cursor-type 'bar)
+(blink-cursor-mode -1)
 ;;org-mode
 (require 'org)
 (setq org-agenda-files (list "~/.emacs.d/org/work.org"))

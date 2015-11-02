@@ -37,6 +37,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("e:/同步工作/org/index/" (22070 50741 0 0) "index.htm~" "index.htm" "index/" "../" "./")
+
  ("c:/Users/Administrator/AppData/Roaming/.emacs.d/org/" (22056 22498 0 0) "work.org" ".#work.org" "../" "./")
 
  ("e:/code/temp/" (22027 21838 0 0) "Todo.org~" "Todo.org" "1.py~" "1.py" "#hello.txt#" "../" "./")
