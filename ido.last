@@ -12,6 +12,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "e:/临时/集团指标分解/"
  "c:/Users/Administrator.USER-20150224BH/AppData/Roaming/.emacs.d/"
  "c:/Users/Administrator/AppData/Roaming/.emacs.d/"
  "c:/Users/Administrator/AppData/Roaming/"
@@ -23,6 +24,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "#12月份语句.txt#"
  "init.el"
  ".smex-items"
  "work.org"
@@ -32,14 +34,15 @@
  "README.org"
  "gogo.py"
  "Todo.org"
- "hello.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("e:/同步工作/org/index/" (22070 50741 0 0) "index.htm~" "index.htm" "index/" "../" "./")
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/org/" (22074 60722 0 0) "work.org" ".#work.org" "#work.org#" "../" "./")
 
- ("c:/Users/Administrator/AppData/Roaming/.emacs.d/org/" (22056 22498 0 0) "work.org" ".#work.org" "../" "./")
+ ("e:/临时/集团指标分解/" (22073 42765 0 0) "集客相关4G数据检索（褚研）.xlsx" "集客相关4G数据检索结果.zip" "集客相关4G数据检索结果.xlsx" "集客拍照相关.txt" "集团客户积分检索单（小聂）.xlsx" "3月份语句.txt" "3月份语句 - 副本.txt" "12月份语句.txt" "#12月份语句.txt#" "../" "./")
+
+ ("e:/同步工作/org/index/" (22070 50741 0 0) "index.htm~" "index.htm" "index/" "../" "./")
 
  ("e:/code/temp/" (22027 21838 0 0) "Todo.org~" "Todo.org" "1.py~" "1.py" "#hello.txt#" "../" "./")
 

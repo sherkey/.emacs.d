@@ -29,6 +29,19 @@
 (require 'new-buffer)
 (global-set-key (kbd "M-n") 'xah-new-empty-buffer)
 
+;;多光标操作
+(add-to-list 'load-path "~/.emacs.d/plugin/multiple-cursors")
+(require 'multiple-cursors)
+;;选定一个区域，按键后会在每一行添加光标
+(global-set-key (kbd "C-{") 'mc/edit-lines)
+;;选择关键字
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-?") 'mc/mark-all-like-this)
+;;鼠标绑定
+(global-set-key (kbd "C-S-<mouse-1>") 'mc/add-cursor-on-click)
+
+
 ;;org-mode 显示图片 iimage.el
 ;;设置标记
 (global-set-key (kbd "C-z") 'set-mark-command)
@@ -108,11 +121,11 @@ charset
   '("--gui=wx" "--pylab=wx" "-colors" "Linux"))
 (setq py-force-py-shell-name-p t)
 
-;;yasnippet
-(add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-0.8.0")
-(require 'yasnippet)
-;;(yas/load-directory "~/.emacs.d/elpa/yasnippet-0.8.0/snippets")
-(yas-global-mode 1)
+;; ;;yasnippet
+;; (add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-0.8.0")
+;; (require 'yasnippet)
+;; ;;(yas/load-directory "~/.emacs.d/elpa/yasnippet-0.8.0/snippets")
+;; (yas-global-mode 1)
 
 ;;ibuffer
 (defalias 'list-buffers 'ibuffer) ; make ibuffer default
@@ -129,6 +142,6 @@ charset
 (global-set-key [f3] 'highlight-symbol-next)
 (global-set-key [(shift f3)] 'highlight-symbol-prev)
 (global-set-key [(meta f3)] 'highlight-symbol-query-replace)
-;;sql indent
-(eval-after-load "sql"
-'(load-library "sql-indent"))
+
+;;sql format
+
